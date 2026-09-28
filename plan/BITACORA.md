@@ -4,6 +4,11 @@ Registro cronológico de decisiones y avances. Entrada más reciente arriba.
 
 ---
 
+## 2026-09-27 — Actualización de codegraph a v1.6.0
+- **Qué se hizo:** `codegraph upgrade` (1.5.0 → 1.6.0) y reindexado completo (`codegraph index -f`: 18 nodos, 58 relaciones).
+- **Nota:** el upgrade reescribe `.cursor/mcp.json` con una ruta absoluta; se revirtió para mantener `${workspaceFolder}` y que el repo funcione en cualquier equipo.
+- **Pendiente:** reactivar los MCPs del proyecto en Cursor (fallaron por timeout interno al arrancar) y verificarlos en un chat nuevo.
+
 ## 2026-09-27 — Índice de codegraph
 - **Qué se hizo:** `codegraph init` en el repo (18 nodos, 58 relaciones sobre `docs/app.js`). Consulta de prueba con `codegraph_explore` correcta. Tarea `ZV-028` completada.
 - **Pendiente:** abrir `C:\zayven\zayven` como carpeta de trabajo para que Cursor use el `.cursor/mcp.json` del repo (memoria en `.ai/memory.jsonl`).
