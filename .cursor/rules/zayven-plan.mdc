@@ -1,0 +1,20 @@
+---
+description: Contexto y rutina de memoria del proyecto Zayven
+alwaysApply: true
+---
+
+# Proyecto Zayven
+
+Marca tecnológica boliviana (productos electrónicos + kits + servicios + e-commerce + IA). El plan vive en `plan/`; el punto de entrada es `plan/00-INDEX.md`. La web del plan está en `docs/`.
+
+## Reglas
+- No inventar datos: usar NO VERIFICADO, SUPUESTO o ESCENARIO. Datos que cambian (aduana, impuestos, precios, competidores) llevan fuente, fecha y confianza.
+- No marcar fases como completadas sin cumplir su criterio de finalización (`plan/06-roadmap-fases.md`).
+- No proponer desarrollar la app completa antes de validar ventas.
+- Decisiones irreversibles las toma Jorge; presentar alternativas A/B/C con costo, riesgo y beneficio.
+- Archivos de texto en UTF-8.
+
+## Rutina de memoria
+- Al empezar: leer `plan/00-INDEX.md` y `plan/BITACORA.md`; consultar el MCP `memory` con `search_nodes "Zayven"`.
+- Al terminar: agregar entrada en `plan/BITACORA.md`, actualizar `plan/08-backlog.md` y el estado en `plan/00-INDEX.md`, y guardar decisiones/datos verificados en `memory` según `plan/11-mcps-y-memoria.md`.
+- Si cambian estados de fases o backlog, reflejarlo también en `docs/app.js`.
