@@ -146,7 +146,7 @@ const backlog = [
   ["ZV-025", "Web del plan en GitHub Pages", "P2", "—", "green"],
   ["ZV-026", "MCPs memory + codegraph en el repo", "P2", "—", "green"],
   ["ZV-027", "Activar GitHub Pages (main, /docs)", "P2", "ZV-025", "red"],
-  ["ZV-028", "Ejecutar codegraph init en el repo", "P3", "ZV-026", "red"],
+  ["ZV-028", "Ejecutar codegraph init en el repo", "P3", "ZV-026", "green"],
 ];
 
 const $ = (s) => document.querySelector(s);

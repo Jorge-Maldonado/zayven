@@ -14,7 +14,7 @@
 {"type":"entity","name":"Kit Robótica","entityType":"kit","observations":["BOM: Arduino + L298N + 2 motores TT + 2 ruedas + chasis + sensores + jumpers"]}
 {"type":"entity","name":"Kit Estudiante","entityType":"kit","observations":["BOM: Arduino + protoboard + LEDs + resistencias + jumpers + sensores"]}
 {"type":"entity","name":"MCP memory","entityType":"herramienta","observations":["@modelcontextprotocol/server-memory con MEMORY_FILE_PATH=.ai/memory.jsonl","Configurado en .cursor/mcp.json del repo"]}
-{"type":"entity","name":"MCP codegraph","entityType":"herramienta","observations":["codegraph serve --mcp --path ${workspaceFolder}","Requiere ejecutar 'codegraph init' en C:\\zayven\\zayven para crear el índice (ZV-028)"]}
+{"type":"entity","name":"MCP codegraph","entityType":"herramienta","observations":["codegraph serve --mcp --path ${workspaceFolder}","Índice creado con 'codegraph init' el 2026-09-27: 18 nodos, 58 relaciones (ZV-028 completada)"]}
 {"type":"relation","from":"Jorge Maldonado","to":"Zayven","relationType":"fundó"}
 {"type":"relation","from":"Jorge Maldonado","to":"ABIMAR","relationType":"desarrolló"}
 {"type":"relation","from":"Zayven","to":"ABIMAR","relationType":"reutiliza_experiencia_de"}

@@ -36,7 +36,7 @@ Relaciones (voz activa): `Zayven tiene_fase_actual Fase 0`, `Zayven compite_con 
    - Commit + push.
 
 ## codegraph — activación
-El índice de código se crea una sola vez desde la raíz del repo (tarea `ZV-028`):
+El índice de código ya está creado (tarea `ZV-028`, 2026-09-27). Si hiciera falta recrearlo, desde la raíz del repo:
 
 ```powershell
 cd C:\zayven\zayven

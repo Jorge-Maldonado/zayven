@@ -32,4 +32,4 @@ Regla de priorización: impacto + urgencia + costo + dependencias + riesgo. Prim
 | ZV-025 | Web del plan en GitHub Pages | P2 | — | 🟢 | IA | 2026-09-27 | `docs/index.html` |
 | ZV-026 | Configurar MCPs memory + codegraph en el repo | P2 | — | 🟢 | IA | 2026-09-27 | `.cursor/mcp.json` |
 | ZV-027 | Activar GitHub Pages (Settings → Pages → rama `main`, carpeta `/docs`) | P2 | ZV-025 | 🔴 | Jorge | | |
-| ZV-028 | Ejecutar `codegraph init` en el repo | P3 | ZV-026 | 🔴 | Jorge | | |
+| ZV-028 | Ejecutar `codegraph init` en el repo | P3 | ZV-026 | 🟢 | IA | 2026-09-27 | Índice creado: 18 nodos, 58 relaciones |
